@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apakah anda sudah puas dengan layanan kami?</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="questioner-box">
+      <i class="fa-solid fa-circle-question"></i>
+      <h5>Apakah anda sudah puas dengan layanan kami?</h5>
+      <button type="button" onclick="yes()" class="blue">Ya</button>
+      <button type="button" id="noBtn" onclick="no()" class="red">
+        Tidak!
+      </button>
+    </div>
+
+    <div class="questioner-box hidden">
+      <i class="fa-solid fa-circle-check success"></i>
+      <h5>Terima Kasih sudah menggunakan layanan kami</h5>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
